@@ -1,0 +1,108 @@
+# =====================================
+# Ubiquitous-Octo-Giggle Master Repo
+# =====================================
+
+############################
+# Python
+############################
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+############################
+# Python Packaging
+############################
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+############################
+# Logs
+############################
+
+logs/
+*.log
+
+############################
+# Data / Generated Files
+############################
+
+data/tmp/
+data/cache/
+*.tmp
+*.cache
+
+############################
+# Local Repo Clones
+############################
+
+repos/
+clones/
+managed_repos/
+
+############################
+# Configuration Secrets
+############################
+
+.env
+.env.*
+secrets.json
+tokens.json
+credentials.json
+
+############################
+# IDE / Editors
+############################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+############################
+# OS Files
+############################
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Jupyter Notebooks
+############################
+
+.ipynb_checkpoints/
+
+############################
+# Node / JS (future tools)
+############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Temporary files
+############################
+
+tmp/
+temp/
+*.temp
+
+############################
+# GitHub Actions Artifacts
+############################
+
+artifacts/
