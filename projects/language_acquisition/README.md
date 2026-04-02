@@ -44,6 +44,25 @@ The goal is to develop scalable frameworks that improve language learning effici
 |-----|--------|
 | Python | Data analysis and language models |
 | NLP Libraries | Natural language processing experiments |
+
+language_acquisition/
+│
+├── README.md
+├── research/
+│   ├── papers.md
+│   ├── notes.md
+│
+├── experiments/
+│   ├── ai_tutor/
+│   ├── vocabulary_models/
+│
+├── datasets/
+│
+├── tools/
+│   ├── learning_tracker.py
+│
+└── docs/
+├── methodology.md
 | Speech Recognition | Pronunciation and listening tools |
 | Learning Dashboards | Visualization of learner progress |
 
