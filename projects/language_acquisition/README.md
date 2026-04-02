@@ -48,6 +48,9 @@ The goal is to develop scalable frameworks that improve language learning effici
 ---
 
 ## 🏗️ Proposed Structure
+
+```text
+
 language_acquisition/
 │
 ├── README.md
@@ -67,7 +70,10 @@ language_acquisition/
 └── docs/
 ├── methodology.md
 
+```
+
 ---
+
 
 ## 📊 Expected Outcomes
 
