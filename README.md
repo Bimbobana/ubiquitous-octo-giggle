@@ -151,7 +151,44 @@ This keeps the **master repo focused only on source code, documentation, and con
 
 The repository also maintains a **central registry of all managed projects**.
 
-This registry is stored in:
+This registry is stored in:data/project_registry.json
+
+```
+Each entry records information about a project such as:
+
+- Project ID
+- Status
+- Repository location
+- Description
+- Tags and dependencies
+- Creation and update dates
+
+Example entry:
+
+```json
+{
+  "project_id": "project[language_acquisition]",
+  "name": "Language Acquisition",
+  "category": "research",
+  "status": "planning",
+  "repository_path": "projects/language_acquisition",
+  "created": "2026-04-02"
+}
+
+```
+### 🤖 Why the Registry Matters
+
+> *The project registry allows the master repository to evolve into an automated project management system.*
+
+Automation scripts can use the registry to:
+-	•	List and monitor all projects
+-	•	Initialize new project structures
+-	•	Sync project repositories
+-	•	Generate dashboards and reports
+-	•	Track dependencies between projects
+
+Over time this enables The **Ubiquitous-Octo-Giggle to function as a self-managing project ecosystem.**
+
 ---
 
 ## 📅 Roadmap
